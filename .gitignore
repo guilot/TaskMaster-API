@@ -1,0 +1,31 @@
+# Archivos binarios generados
+/bin/
+/out/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Dependencias vendidas (si no se usan)
+/vendor/
+
+# Archivos de compilación
+*.out
+*.test
+
+# Archivos temporales del editor
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Archivos de configuración de GoLand
+*.iml
+
+# Archivos de logs
+*.log
+
+# archivos de bases de datos
+*.db
