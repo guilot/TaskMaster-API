@@ -20,6 +20,7 @@ func main() {
 	defer db.Close()
 
 	http.HandleFunc("/users/register", handlers.RegisterUserHandler(db))
+	http.HandleFunc("/users/login", handlers.LoginUserHandler(db))
 
 	fmt.Println("Starting server on port 8080")
 	err = http.ListenAndServe(":8080", nil)
